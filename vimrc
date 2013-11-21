@@ -15,3 +15,7 @@ let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
 let Tlist_Inc_Winwidth = 0
 map <C-l> :TlistToggle<CR>
 
+" Spaces instead Tabs
+:set expandtab
+:set tabstop=2
+:set shiftwidth=2
