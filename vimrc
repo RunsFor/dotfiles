@@ -19,3 +19,16 @@ map <C-l> :TlistToggle<CR>
 :set expandtab
 :set tabstop=2
 :set shiftwidth=2
+
+" More natural splits opening
+set splitbelow
+set splitright
+
+" Easier way to create vim panes
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" Remove timeouts on escape key
+set timeoutlen=1000 ttimeoutlen=0
