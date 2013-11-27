@@ -1,7 +1,8 @@
 execute pathogen#infect()
+
 filetype plugin indent on
 
-syntax enable
+syntax on
 set background=dark
 colorscheme solarized
 
@@ -31,4 +32,10 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 " Remove timeouts on escape key
-set timeoutlen=1000 ttimeoutlen=0
+set timeoutlen=1000 ttimeoutlen=1
+
+" Airline plugin not appears when onely one window open
+set laststatus=2
+let g:airline_powerline_fonts=1
+set noshowmode
+
