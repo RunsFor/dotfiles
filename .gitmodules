@@ -13,3 +13,6 @@
 [submodule "bundle/airline"]
 	path = bundle/airline
 	url = https://github.com/bling/vim-airline
+[submodule "bundle/rspec"]
+	path = bundle/rspec
+	url = git@github.com:thoughtbot/vim-rspec.git
