@@ -3,7 +3,7 @@ execute pathogen#infect()
 filetype plugin indent on
 
 syntax on
-set background=dark
+set background=light
 colorscheme solarized
 
 " Bind hotkey to CtrlP plugin
@@ -38,4 +38,15 @@ set timeoutlen=1000 ttimeoutlen=1
 set laststatus=2
 let g:airline_powerline_fonts=1
 set noshowmode
+
+" Let vim load the right ruby version
+" http://rvm.io/integration/vim
+set shell=/bin/sh
+
+" RSpec.vim mappings
+map <Leader>t :w\|:call RunCurrentSpecFile()<CR>
+map <Leader>s :w\|:call RunNearestSpec()<CR>
+map <Leader>l :w\|:call RunLastSpec()<CR>
+map <Leader>a :w\|:call RunAllSpecs()<CR>
+let g:rspec_command = "!rspec --color {spec}"
 
