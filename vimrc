@@ -48,5 +48,5 @@ map <Leader>t :w\|:call RunCurrentSpecFile()<CR>
 map <Leader>s :w\|:call RunNearestSpec()<CR>
 map <Leader>l :w\|:call RunLastSpec()<CR>
 map <Leader>a :w\|:call RunAllSpecs()<CR>
-let g:rspec_command = "!rspec --color {spec}"
+let g:rspec_command = "!zeus rspec --color {spec}"
 
