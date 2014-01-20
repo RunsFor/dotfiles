@@ -19,3 +19,9 @@
 [submodule "bundle/coffee_script"]
 	path = bundle/coffee_script
 	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/webapi"]
+	path = bundle/webapi
+	url = git@github.com:mattn/webapi-vim.git
+[submodule "bundle/gist"]
+	path = bundle/gist
+	url = git@github.com:mattn/gist-vim.git
