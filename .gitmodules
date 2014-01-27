@@ -28,3 +28,6 @@
 [submodule "/Users/runfor/.vim/bundle/vim-ruby"]
 	path = /Users/runfor/.vim/bundle/vim-ruby
 	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = git://github.com/majutsushi/tagbar
