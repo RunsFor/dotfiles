@@ -1,8 +1,12 @@
 execute pathogen#infect()
 
-filetype plugin indent on
+" https://github.com/vim-ruby/vim-ruby/wiki/VimRubySupport
+set nocompatible      " We're running Vim, not Vi!
+syntax on             " Enable syntax highlighting
+filetype on           " Enable filetype detection
+filetype indent on    " Enable filetype-specific indenting
+filetype plugin on    " Enable filetype-specific plugins
 
-syntax on
 set background=light
 colorscheme solarized
 
