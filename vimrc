@@ -50,3 +50,6 @@ map <Leader>l :w\|:call RunLastSpec()<CR>
 map <Leader>a :w\|:call RunAllSpecs()<CR>
 let g:rspec_command = "!zeus rspec --color {spec}"
 
+" Fix delete key problem
+" http://vim.wikia.com/wiki/Backspace_and_delete_problems
+set backspace=2
