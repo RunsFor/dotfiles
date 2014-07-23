@@ -60,3 +60,9 @@ let g:rspec_command = "!zeus rspec --color {spec}"
 " Fix delete key problem
 " http://vim.wikia.com/wiki/Backspace_and_delete_problems
 set backspace=2
+
+"Tagbar
+nmap <F8> :TagbarToggle<CR>
+
+" Minimal width of the current window
+let &winwidth = 100
