@@ -1,5 +1,8 @@
 execute pathogen#infect()
 
+" Enable per-directory vimrc files
+set exrc
+
 " https://github.com/vim-ruby/vim-ruby/wiki/VimRubySupport
 set nocompatible      " We're running Vim, not Vi!
 syntax on             " Enable syntax highlighting
