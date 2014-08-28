@@ -67,3 +67,8 @@ nmap <F8> :TagbarToggle<CR>
 
 " Minimal width of the current window
 let &winwidth = 100
+
+" Emmet vim settings
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
+let g:user_emmet_leader_key='<C-w>'
