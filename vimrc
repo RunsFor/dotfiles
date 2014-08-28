@@ -16,6 +16,7 @@ colorscheme solarized
 " Bind hotkey to CtrlP plugin
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+set wildignore+=*tmp/*,*.git/*,.*,*log/*,*client/node_modules/*,*client/build/*,*client/vendor/*,*/server/coverage/*
 
 map <C-o> :NERDTreeToggle<CR>
 
