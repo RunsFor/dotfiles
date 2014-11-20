@@ -37,3 +37,6 @@
 [submodule "bundle/vim-ruby-eval"]
 	path = bundle/vim-ruby-eval
 	url = git@github.com:kmdsbng/vim-ruby-eval.git
+[submodule "bundle/screen"]
+	path = bundle/screen
+	url = git@github.com:ervandew/screen.git
