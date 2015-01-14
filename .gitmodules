@@ -40,3 +40,6 @@
 [submodule "bundle/screen"]
 	path = bundle/screen
 	url = git@github.com:ervandew/screen.git
+[submodule "bundle/vim-slim"]
+	path = bundle/vim-slim
+	url = https://github.com/slim-template/vim-slim.git
