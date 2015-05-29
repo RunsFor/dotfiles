@@ -26,7 +26,7 @@
 	path = bundle/gist
 	url = git@github.com:mattn/gist-vim.git
 [submodule "/Users/runfor/.vim/bundle/vim-ruby"]
-	path = /Users/runfor/.vim/bundle/vim-ruby
+	path = bundle/vim-ruby
 	url = git://github.com/vim-ruby/vim-ruby.git
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
