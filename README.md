@@ -18,5 +18,6 @@ git submodule update --init --recursive
 To install custom oh-my-zsh theme:
 
 ```
+mkdir -p ~/.oh-my-zsh/custom/themes/
 ln -s ~/dotfiles/pygmalion-runfor.zhs-theme ~/.oh-my-zsh/custom/themes/pygmalion-runfor.zsh-theme
 ```
