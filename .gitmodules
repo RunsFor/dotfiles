@@ -1,0 +1,48 @@
+[submodule ".vim/bundle/ctrlp.vim"]
+	path = .vim/bundle/ctrlp.vim
+	url = git@github.com:kien/ctrlp.vim.git
+[submodule ".vim/bundle/nerdtree"]
+	path = .vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule ".vim/bundle/fugitive"]
+	path = .vim/bundle/fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule ".vim/bundle/airline"]
+	path = .vim/bundle/airline
+	url = https://github.com/bling/vim-airline
+[submodule ".vim/bundle/rspec"]
+	path = .vim/bundle/rspec
+	url = git@github.com:thoughtbot/vim-rspec.git
+[submodule ".vim/bundle/coffee_script"]
+	path = .vim/bundle/coffee_script
+	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule ".vim/bundle/webapi"]
+	path = .vim/bundle/webapi
+	url = git@github.com:mattn/webapi-vim.git
+[submodule ".vim/bundle/gist"]
+	path = .vim/bundle/gist
+	url = git@github.com:mattn/gist-vim.git
+[submodule ".vim/bundle/vim-ruby"]
+	path = .vim/bundle/vim-ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule ".vim/bundle/tagbar"]
+	path = .vim/bundle/tagbar
+	url = git://github.com/majutsushi/tagbar
+[submodule ".vim/bundle/emmet-vim"]
+	path = .vim/bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim
+[submodule ".vim/bundle/vim-ruby-eval"]
+	path = .vim/bundle/vim-ruby-eval
+	url = git@github.com:kmdsbng/vim-ruby-eval.git
+[submodule ".vim/bundle/screen"]
+	path = .vim/bundle/screen
+	url = git@github.com:ervandew/screen.git
+[submodule ".vim/bundle/vim-slim"]
+	path = .vim/bundle/vim-slim
+	url = https://github.com/slim-template/vim-slim.git
+[submodule ".vim/bundle/vim-colors-solarized"]
+	path = .vim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule ".vim/bundle/syntastic"]
+	path = .vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
