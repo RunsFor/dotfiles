@@ -13,3 +13,9 @@ ln -s ~/dotfiles/profile ~/.profile
 cd ~/.vim
 git submodule update --init --recursive
 ```
+
+To install custom oh-my-zsh theme:
+
+```
+ln -s ~/dotfiles/pygmalion-runfor.zhs-theme ~/.oh-my-zsh/custom/themes/pygmalion-runfor.zsh-theme
+```
