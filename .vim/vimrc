@@ -9,7 +9,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-" Plugin 'kien/ctrlp.vim'
+Plugin 'kien/ctrlp.vim'
 Plugin 'wincent/command-t'
 Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
@@ -168,3 +168,9 @@ set ttyfast
 " Set this to the name of your terminal that supports mouse codes.
 " Must be one of: xterm, xterm2, netterm, dec, jsbterm, pterm
 set ttymouse=xterm2
+
+" Installing fuzzy finder (https://github.com/junegunn/fzf)
+set rtp+=/usr/local/opt/fzf
+
+" Use 2 characters tabstop for lua files
+autocmd Filetype lua setlocal noet ci pi sts=0 sw=2 ts=2

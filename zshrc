@@ -6,7 +6,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 # ZSH_THEME="pygmalion-runfor"
-ZSH_THEME="pygmalion"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -91,3 +91,10 @@ if [ ! $(uname -s) = "Darwin" ]; then
 fi
 
 source "$HOME/.profile"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# https://github.com/bhilburn/powerlevel9k/ plugin configuration
+# POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+DEFAULT_COLOR=white
+DEFAULT_COLOR_INVERTED=black
