@@ -81,7 +81,7 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_check_on_w = 1
 
 " Swap files goes into its own directory
-set directory=$HOME/.vim/swapfiles//
+set directory=$HOME/.vim/swapfiles/
 
 " Default shell is zsh
 set shell=/usr/bin/zsh
