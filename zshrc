@@ -5,8 +5,10 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-# ZSH_THEME="pygmalion-runfor"
-ZSH_THEME="powerlevel9k/powerlevel9k"
+# ZSH_THEME="pygmalion"
+ZSH_CUSTOM=$HOME/dotfiles/zsh-config
+ZSH_THEME="themes/reggae"
+# ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -92,9 +94,28 @@ fi
 
 source "$HOME/.profile"
 
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # https://github.com/bhilburn/powerlevel9k/ plugin configuration
 # POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 DEFAULT_COLOR=white
 DEFAULT_COLOR_INVERTED=black
+export PATH="/usr/local/opt/node/bin:$PATH"
+# export PATH="/usr/local/opt/curl/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"
+
+PATH="/Users/i.konyuhov/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/Users/i.konyuhov/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/Users/i.konyuhov/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/Users/i.konyuhov/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/Users/i.konyuhov/perl5"; export PERL_MM_OPT;
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH="$PATH:$GOBIN:/usr/local/go/bin"
+
+# Sublime text
+export EDITOR='subl -w'

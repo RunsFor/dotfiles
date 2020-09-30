@@ -13,17 +13,13 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'wincent/command-t'
 Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
-Plugin 'thoughtbot/vim-rspec'
-Plugin 'kchmck/vim-coffee-script'
 Plugin 'mattn/webapi-vim'
 Plugin 'mattn/gist-vim'
-Plugin 'vim-ruby/vim-ruby'
 Plugin 'majutsushi/tagbar'
 Plugin 'mattn/emmet-vim'
-Plugin 'kmdsbng/vim-ruby-eval'
 Plugin 'ervandew/screen'
-Plugin 'slim-template/vim-slim'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'kristijanhusak/vim-hybrid-material'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
 
@@ -64,10 +60,14 @@ filetype on           " Enable filetype detection
 filetype indent on    " Enable filetype-specific indenting
 filetype plugin on    " Enable filetype-specific plugins
  
+" Color Schemes
+
 " Solarized theme for vim
 syntax enable
-set background=light
-colorscheme solarized
+" set background=light
+" colorscheme solarized
+" set background=dark
+" colorscheme hybrid_material
 
 " Syntastic
 set statusline+=%#warningmsg#
@@ -80,8 +80,8 @@ let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 let g:syntastic_check_on_w = 1
 
-" Keep swap files in tmp dir
-set dir=~/tmp
+" Swap files goes into its own directory
+set directory=$HOME/.vim/swapfiles//
 
 " Default shell is zsh
 set shell=/usr/bin/zsh
@@ -139,7 +139,7 @@ set backspace=2
 nmap <F8> :TagbarToggle<CR>
 
 " Minimal width of the current window
-let &winwidth = 100
+let &winwidth = 80
 
 " Emmet vim settings
 let g:user_emmet_install_global = 0
