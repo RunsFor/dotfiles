@@ -44,3 +44,7 @@ rm -rf fonts
 Choose `Meslo LG M DZ for Powerline` font int iTerm Preferences -> Profiles -> Text
 
 Then install [`MaterialDesign` Theme](https://github.com/MartinSeeler/iterm2-material-design)
+
+in iTerm go to Preferences -> Profiles -> Keys:
+* Set Left Option Key to `Esc+`
+* Set Right Option Key to `Esc+`
